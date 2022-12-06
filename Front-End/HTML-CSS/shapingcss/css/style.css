@@ -1,0 +1,119 @@
+/************************************************************
+ * ATTENTION REGLAGES DE L'INTERFACE GLOBALE.
+ * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
+ * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
+ ************************************************************/
+.page{
+    width: 900px;
+    margin:auto;
+}
+.entete{
+    height: 100px;
+}
+.colonne_menu{
+    float:left;
+    width:200px;
+    height:100%;
+}
+.colonne_contenu {
+    margin-left:200px;
+}
+.pieddepage{
+    height:50px;
+}
+
+/************************************************************
+ * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
+ ************************************************************/
+body{
+	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: blue;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.entete{
+    background-color: rgb(119, 136, 153);
+}
+.colonnes {
+    background-color:rgb(119, 136, 153);
+}
+.colonne_menu{
+    background-color:rgb(119, 136, 153);
+    
+}
+.colonne_menu ul {
+    margin: 0;
+    padding: 0;
+}
+.colonne_contenu {
+    background-color: white;
+    padding: 10px;
+}
+.pieddepage{
+    background-color: yellow;
+    color: green;
+    text-align: center;
+    line-height: 50px;
+}
+.colonne_menu li {
+    background-color: gold;
+    font-size: 1em;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+.colonne_menu li a:hover {
+    color: black;
+}
+.colonne_menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+}
+.titre {
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+}
+.slogan {
+    color: white;
+    font-size: 0.8em;
+    font-style: italic;
+}
+h1 {
+    margin: 10px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    border-bottom: 5px solid purple;
+}
+h2 {
+    color: blue;
+    font-size: 1.5em;
+    margin: 20px;
+    font-variant: small-caps;
+}
+strong {
+    color: yellow;
+    font-weight: normal;
+}
+em {
+    color: brown;
+}
+.introduction {
+    border:3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.colonne_contenu p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.colonne_contenu p a:hover {
+    color: white;
+}
